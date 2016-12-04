@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Principal_linearLayout"
+    android:padding="30dp"
+    android:gravity="center_vertical|center" >
+
+    <TextView
+        style="@style/titleText.xlarge"
+        android:text="@string/app_name"
+        android:id="@+id/p_tablet_titulo_textView"
+        android:rotation="20" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/p_tablet_tableLayout"
+        android:layout_gravity="center_vertical" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <Button
+                android:layout_width="wrap_content"
+                style="@style/titleText.xlarge.Botones"
+                android:text="@string/onePlayer_button"
+                android:id="@+id/p_jugar_button"
+                android:layout_marginRight="5dp"
+                android:tag="1"
+                android:onClick="startGame" />
+
+            <Button
+                android:layout_width="wrap_content"
+                style="@style/titleText.xlarge.Botones"
+                android:text="@string/multiPlayer_button"
+                android:id="@+id/p_jugarMulti_button"
+                android:layout_marginLeft="5dp"
+                android:tag="2"
+                android:onClick="startGame" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:layout_width="wrap_content"
+                style="@style/titleText.xlarge.Botones"
+                android:text="@string/rules_button"
+                android:id="@+id/p_rules_button"
+                android:layout_marginRight="5dp"
+                android:onClick="howToPlay" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

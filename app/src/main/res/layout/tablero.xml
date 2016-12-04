@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        style="@style/playersTextView"
+        android:id="@+id/jugador2TextView"
+        android:layout_alignParentTop="true"
+        android:rotation="180"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:stretchColumns="*"
+        android:gravity="center_vertical"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/jugador2TextView"
+        android:layout_above="@+id/jugador1TextView">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFFF">
+
+            <ImageButton
+                android:id="@+id/c00"
+                style="@style/voidCell"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:padding="5dp" />
+
+            <ImageButton
+                android:id="@+id/c01"
+                style="@style/voidCell"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:padding="5dp" />
+
+            <ImageButton
+                android:id="@+id/c02"
+                style="@style/voidCell"
+                android:scaleType="fitCenter"
+                android:layout_weight="1"
+                android:padding="5dp" />
+        </TableRow >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/c10"
+                style="@style/voidCell"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:padding="5dp" />
+
+            <ImageButton
+                android:id="@+id/c11"
+                style="@style/voidCell"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:padding="5dp" />
+
+            <ImageButton
+                android:id="@+id/c12"
+                style="@style/voidCell"
+                android:scaleType="fitCenter"
+                android:layout_weight="1"
+                android:padding="5dp" />
+        </TableRow >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/c20"
+                style="@style/voidCell"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:padding="5dp" />
+
+            <ImageButton
+                android:id="@+id/c21"
+                style="@style/voidCell"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:padding="5dp" />
+
+            <ImageButton
+                android:id="@+id/c22"
+                style="@style/voidCell"
+                android:scaleType="fitCenter"
+                android:layout_weight="1"
+                android:padding="5dp" />
+        </TableRow >
+
+    </TableLayout>
+
+    <TextView
+        style="@style/playersTextView"
+        android:text="@string/player1TextView"
+        android:id="@+id/jugador1TextView"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/images">
+
+    <TextView
+        android:id="@+id/howToPlayTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/howToPlay"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:id="@+id/linkHowToPlayTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/linkHowToPlay"
+        android:autoLink="web"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+</LinearLayout>

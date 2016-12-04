@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jpcanocor.tresenraya_jp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/beginnerTheme" >
+
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".VistaJuego"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"
+            android:theme="@style/gameTheme" />
+
+        <activity
+            android:name=".AboutOf"
+            android:label="@string/aboutOf"
+            android:theme="@style/aboutOf" />
+
+        <activity
+            android:name=".HowToPlay"
+            android:label="@string/howToPlayLabel"
+            android:theme="@style/aboutOf" />
+
+        <activity
+            android:name=".UserSettings"
+            android:label="@string/settings" />
+
+        <activity
+            android:name=".Winner"
+            android:label="@string/endedGame"
+            android:theme="@style/winnerTheme"
+            android:screenOrientation="portrait"
+            />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Tres en Raya </string>
+
+    <string name="player1TextView">Jugador 1</string>
+    <string name="player2TextView">Jugador 2</string>
+
+    <string name="circleDescrContent">Círculo</string>
+    <string name="crossDescrContent">Equis</string>
+    <string name="aboutOfText">Esta aplicación se ha desarrollado como proyecto de la asignatura Fundamentos de Programación en Android por Juan Pedro Cano</string>
+    <string name="aboutOf">Acerca de&#8230;</string>
+    <string name="androidTextView">Android</string>
+    <string name="anotherGameMessage">¿Quieres intentarlo de nuevo?</string>
+    <string name="anotherGameTitle">Fin de la partida</string>
+    <string name="drawText">La partida ha terminado en tablas</string>
+    <string name="freeDescrContent">Celda libre</string>
+    <string name="invalidCellToast">Celda incorrecta, elige otra.</string>
+    <string name="multiPlayer_button">Multijugador</string>
+    <string name="onePlayer_button">Jugador vs Android</string>
+    <string name="rules_button">¿Cómo se juega?</string>
+    <string name="settings">Configuración</string>
+    <string name="winnerText">El ganador es </string>
+    <string name="pref_music">Música</string>
+    <string name="pref_music_summary">Música on/off</string>
+    <string name="endedGame">Fin de Partida</string>
+    <string name="linkHowToPlay"><a href="https://es.wikipedia.org/wiki/Tres_en_l%C3%ADnea">https://es.wikipedia.org/wiki/Tres_en_línea</a></string>
+    <string name="howToPlay">Si no conoces las reglas, por favor visita esta página:</string>
+    <string name="howToPlayLabel">Reglas del Juego</string>
+    <string name="pressScreen">-- Pulsa la pantalla --</string>
+</resources>

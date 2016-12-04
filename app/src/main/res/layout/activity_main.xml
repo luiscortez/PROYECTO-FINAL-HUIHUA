@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Principal_linearLayout"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="@mipmap/esteban">
+
+    <TextView
+        style="@style/titleText"
+        android:id="@+id/p_titulo_textView"
+        android:text="GAMER HUIHUA"
+        android:layout_marginBottom="80dp"
+        android:rotation="20"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        style="@style/titleText.Botones"
+        android:text="@string/onePlayer_button"
+        android:id="@+id/p_jugar_button"
+        android:tag="1"
+        android:onClick="startGame"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        style="@style/titleText.Botones"
+        android:text="@string/multiPlayer_button"
+        android:id="@+id/p_jugarMulti_button"
+        android:tag="2"
+        android:onClick="startGame"
+        android:layout_width="161dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        style="@style/titleText.Botones"
+        android:text="@string/rules_button"
+        android:id="@+id/p_rules_button"
+        android:onClick="howToPlay"
+        android:layout_width="169dp" />
+
+</LinearLayout>
